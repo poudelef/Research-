@@ -38,7 +38,7 @@ All these attentions are combined ---> Attention Curve for entire video ---> Cre
 ## Math
 
 
-w_v, w_a, w_l = weights for linear combination
+w_v,  w_a,  w_l = weights for linear combination
 
 M_v = normalized visual attention
 
@@ -47,7 +47,7 @@ M_a = normaized audio attention
 M_l = normalized linguistic attention
 
 
-Attention Model = A(t) = w_v * M_v + w_a * M_a + w_l * M_l *Attention Model*
+Attention Model = A(t) = w_v  *  M_v  +  w_a  *  M_a  +  w_l  *  M_l 
 
 
    
