@@ -28,11 +28,29 @@ The core of this research is a framework that combines different types of "atten
     * **Music:** Music sets the mood and can signal important moments.
   
 3.  **Linguistic Attention:** -> Not discussed in the paper (but more like subtitles)
+   
+---------------------------------------
+##Overview 
 
+All these attentions are combined ---> Attention Curve for entire video ---> Create a graph/wave( smoothing and normalizing) ---> peaks are consider the most important ---> used for summary
 
+--------------------------------------
+## Math
 
+A = Attention Model
+w_v, w_a, w_l = weights for linear combination
+M_v = normalized visual attention
+M_a = normaized audio attention 
+M_l = normalized linguistic attention
 
-| All these attentions are combined ---> Attention Curve for entire video ---> Create a graph/wave( smoothing and normalizing) ---> peaks are consider the most important ---> used for summary |
+A(t) = w_v * M_v + w_a * M_a + w_l * M_l *Attention Model*
+
+$M_v = \left( \sum_{i=1}^{p} w_i \cdot \overline{M}_i \right) \times \left( \overline{M}_{cm} \right)^{S_{cm}}$
+
+$M_a = \left( \sum_{j=1}^{q} w_j \cdot \overline{M}_j \right) \times \left( \overline{M}_{as} \right)^{S_{as}}$
+
+$M_l = \sum_{k=1}^{r} w_k \cdot \overline{M}_k$
+
    
 ## Types of Summaries Created:
 
