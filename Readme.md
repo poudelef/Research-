@@ -26,8 +26,12 @@ The core of this research is a framework that combines different types of "atten
     * **Loudness & Changes:** Sudden loud sounds or changes in sound levels.
     * **Speech:** Spoken words are usually very important for understanding content.
     * **Music:** Music sets the mood and can signal important moments.
+  
+3.  **Linguistic Attention:** -> Not discussed in the paper (but more like subtitles)
 
 All these different attention cues are combined to create an "attention curve" for the entire video. The parts of the video where this curve peaks are considered the most important and are used for the summary.
+
+All these attentions are combined ---> Attention Curve for entire video ---> Create a graph/wave ---> peaks are consider the most important --->used for summary
 
 ## Types of Summaries Created:
 
