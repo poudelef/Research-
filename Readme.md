@@ -1,15 +1,18 @@
-# Video Summarization: Understanding User Attention : **"A User Attention Model for Video Summarization"** by Yu-Fei Ma, Lie Lu, Hong-Jiang Zhang, and Mingjing Li from Microsoft Research Asia.
+# Video Summarization: Understanding User Attention 
+**"A User Attention Model for Video Summarization"** 
+by Yu-Fei Ma, Lie Lu, Hong-Jiang Zhang, and Mingjing Li from Microsoft Research Asia.
 
-## Introduction?
+## Introduction
 
 * This paper introduces a new way to automatically create summaries of videos. Instead of trying to understand every little detail (the "semantics") of a video, which is       very hard for computers,
 * It focuses on **modeling what a person pays attention to** while watching a video. The idea is that if we can predict where a person's eyes and ears will focus, we can       pick out the most important parts for a summary.
 
-## Why is this important?
-
-Creating good video summaries is crucial for managing and Browse large amounts of video content. Imagine quickly finding the main points of a long lecture or a busy news report without watching the whole thing. Traditional methods often struggle because they don't quite match how humans perceive videos, or they're too complicated to compute.
+Paper talks about A static abstract, also known as a static storyboard which is a collection of key-frames extracted from the original video sequence(Audio is lost) and a dynamic skimming which is collection of associated audio-video sub-clips(Takes long time to process)
 
 ## How does it work? (The "User Attention Model")
+
+<img width="466" height="325" alt="image" src="https://github.com/user-attachments/assets/ecef4957-5c55-4cc0-8508-7ea71b86ac82" />
+
 
 The core of this research is a framework that combines different types of "attention" to figure out what's interesting in a video:
 
