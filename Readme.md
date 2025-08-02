@@ -1,10 +1,9 @@
-# Video Summarization: Understanding User Attention
+# Video Summarization: Understanding User Attention : **"A User Attention Model for Video Summarization"** by Yu-Fei Ma, Lie Lu, Hong-Jiang Zhang, and Mingjing Li from Microsoft Research Asia.
 
-This document summarizes key aspects of the paper **"A User Attention Model for Video Summarization"** by Yu-Fei Ma, Lie Lu, Hong-Jiang Zhang, and Mingjing Li from Microsoft Research Asia.
+## Introduction?
 
-## What is this paper about?
-
-This paper introduces a new way to automatically create summaries of videos. Instead of trying to understand every little detail (the "semantics") of a video, which is very hard for computers, it focuses on **modeling what a person pays attention to** while watching a video. The idea is that if we can predict where a person's eyes and ears will focus, we can pick out the most important parts for a summary.
+* This paper introduces a new way to automatically create summaries of videos. Instead of trying to understand every little detail (the "semantics") of a video, which is       very hard for computers,
+* It focuses on **modeling what a person pays attention to** while watching a video. The idea is that if we can predict where a person's eyes and ears will focus, we can       pick out the most important parts for a summary.
 
 ## Why is this important?
 
