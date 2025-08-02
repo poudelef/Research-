@@ -32,7 +32,7 @@ The core of this research is a framework that combines different types of "atten
 
 
 
-|All these attentions are combined ---> Attention Curve for entire video ---> Create a graph/wave( smoothing and normalizing) ---> peaks are consider the most important ---> used for summary|
+| All these attentions are combined ---> Attention Curve for entire video ---> Create a graph/wave( smoothing and normalizing) ---> peaks are consider the most important ---> used for summary |
    
 ## Types of Summaries Created:
 
