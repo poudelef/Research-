@@ -29,11 +29,8 @@ The core of this research is a framework that combines different types of "atten
   
 3.  **Linguistic Attention:** -> Not discussed in the paper (but more like subtitles)
 
-All these different attention cues are combined to create an "attention curve" for the entire video. The parts of the video where this curve peaks are considered the most important and are used for the summary.
 
-All these attentions are combined ---> Attention Curve for entire video ---> Create a graph/wave ---> peaks are consider the most important ---> used for summary
-
-    graph TD;
+   graph TD;
         A[Start] --> B{Operation?};
         B -- Yes --> C(Process);
         B -- No --> D[End];
