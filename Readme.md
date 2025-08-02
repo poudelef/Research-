@@ -30,12 +30,10 @@ The core of this research is a framework that combines different types of "atten
 3.  **Linguistic Attention:** -> Not discussed in the paper (but more like subtitles)
 
 
-   graph TD;
-        A[Start] --> B{Operation?};
-        B -- Yes --> C(Process);
-        B -- No --> D[End];
-        C --> D;
 
+
+|All these attentions are combined ---> Attention Curve for entire video ---> Create a graph/wave( smoothing and normalizing) ---> peaks are consider the most important ---> used for summary|
+   
 ## Types of Summaries Created:
 
 * **Static Storyboard:** A collection of important still images (key-frames) from the video.
