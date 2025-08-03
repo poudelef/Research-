@@ -35,6 +35,7 @@ All these attentions are combined ---> Attention Curve for entire video ---> Cre
 --------------------------------------
 ## Math
 
+Attention Model = A(t) = w_v  *  M_v  +  w_a  *  M_a  +  w_l  *  M_l 
 
 w_v,  w_a,  w_l = weights for linear combination
 
@@ -44,8 +45,6 @@ M_a = normaized audio attention
 
 M_l = normalized linguistic attention
 
-
-Attention Model = A(t) = w_v  *  M_v  +  w_a  *  M_a  +  w_l  *  M_l 
 
 -------------------------------------
 
@@ -62,9 +61,13 @@ Each macroblock(e.g. 16 x 16 pixels) is analyzed using three inductors
    Motion Attention = B = I * Ct * (1- I * Cs)
 
 --------------------------------------
+
+## Vocabs 
+
 A saliency map is a visual representation (usually grayscale or heatmap) that shows which parts of an image or video frame are most likely to attract human attention.
 
 salient - most noticable or important 
+
 --------------------------------------   
 
 ## VISUAL ATTENTION -> Static Attention Model
