@@ -1,5 +1,5 @@
 # Video Summarization: Understanding User Attention 
-[**"A User Attention Model for Video Summarization"**](https://dl.acm.org/doi/abs/10.1145/641007.641116)by Yu-Fei Ma, Lie Lu, Hong-Jiang Zhang, and Mingjing Li from Microsoft Research Asia.
+[**"A User Attention Model for Video Summarization"**](https://dl.acm.org/doi/abs/10.1145/641007.641116) by Yu-Fei Ma, Lie Lu, Hong-Jiang Zhang, and Mingjing Li from Microsoft Research Asia.
 
 ## Introduction
 
