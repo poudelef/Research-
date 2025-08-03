@@ -48,6 +48,17 @@ M_l = normalized linguistic attention
 
 -------------------------------------
 
+
+--------------------------------------
+
+## Vocabs 
+
+A saliency map is a visual representation (usually grayscale or heatmap) that shows which parts of an image or video frame are most likely to attract human attention.
+
+salient - most noticable or important 
+
+--------------------------------------   
+
 ## VISUAL ATTENTION -> Motion Attention Model
 It uses "Motion Vector Fields" (MVF -> extracted from MPEGF-compressed video)(grid of vectors that describes how parts of images move between frames) -- (MPEG compressied video -- it only stores changes)
 
@@ -60,15 +71,6 @@ Each macroblock(e.g. 16 x 16 pixels) is analyzed using three inductors
    
    Motion Attention = B = I * Ct * (1- I * Cs)
 
---------------------------------------
-
-## Vocabs 
-
-A saliency map is a visual representation (usually grayscale or heatmap) that shows which parts of an image or video frame are most likely to attract human attention.
-
-salient - most noticable or important 
-
---------------------------------------   
 
 ## VISUAL ATTENTION -> Static Attention Model
 Captures which part of still frame are visually significant(e.g. static background even though there is no motion).  
@@ -80,7 +82,7 @@ A saliency map is generated from each frame by there channels
 2. Contrasts
 3. Intensity Contrasts
 
-Static Attention Model formiuls = <img width="352" height="81" alt="image" src="https://github.com/user-attachments/assets/1e077f3c-9275-403e-ac21-b44ada8f9f52" />
+   Static Attention Model formiuls = <img width="352" height="81" alt="image" src="https://github.com/user-attachments/assets/1e077f3c-9275-403e-ac21-b44ada8f9f52" />
 
 
 ## VISUAL ATTENTION -> Face Attention Model
@@ -108,7 +110,7 @@ Attention factors caused by camers motion are quantified to the range of [0-2]
 1 = Neutral
 >1 = important
 
-   <img width="738" height="660" alt="image" src="https://github.com/user-attachments/assets/6c12fbd4-ad61-48b3-9265-02c1d6fcc869" />
+<img width="738" height="660" alt="image" src="https://github.com/user-attachments/assets/6c12fbd4-ad61-48b3-9265-02c1d6fcc869" />
 
 
 ## Audio Attention -> Audio Saliency Attention Model
