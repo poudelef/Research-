@@ -133,11 +133,54 @@ Captures Speach and Music
 
 M_speach and M_music denote speach attention and music attention. N denotes number of sub-segments for music and speech 
 
-## Types of Summaries Created:
 
-* **Static Storyboard:** A collection of important still images (key-frames) from the video.
-* **Dynamic Skimming:** A shorter video made up of the most important short clips, keeping both video and audio.
+## Video Summarization Scheme
+
+<img width="683" height="410" alt="image" src="https://github.com/user-attachments/assets/3889b69f-fe3f-4c83-961d-8aa812c3b258" />
+
+1. User Attention Curve A(t) shows attention values per frame (combines visual, audio, and linguistic)
+2. Then compute derivative A'(t), Zero crossing points (From + to - shows peak locations on A(t)
+3. "Static Summary": Extract frame as keyfreame for each atention peak --> Rank all key framers by attention vlaue --> creates multi-scale summaries (e.g., top 5, 10 frames)
+4. "Dynamic Summary": Once a skim ratio is given, skim segments are selected around each key-frame according to skim ratio within a shot.
+5. To keep the audio consistent:
+      1. Use adaptive sound level detection used to set threshold
+      2. Identify pause and non pause frame using energy and ZCR information
+      3. Result --> based on minimum pause length and minimum speech length
+      4. Sectence boundry is determined my longer pauses duration
+
+6. If segment < minimum length (L_min = 30); it creates annoying effects
+7. Total skim length is contolled by skim ratio, One Skil per key frame
+   
+<img width="658" height="325" alt="image" src="https://github.com/user-attachments/assets/686669cb-396f-497e-a6a1-47d8a7e93214" />
+
+
+## Evaluations 
+
+Three things were tested:
+1. Single Key Frame Summary
+2. Multi Key Frame Summary
+3. Dynamic Summary (Skim Video)
+
+Particapants : 20 volunteers (9 male, 11 female)
+
+## Static Summarization Evaluation 
+
+A. Single Keyframe (per shot)
+
+<img width="672" height="321" alt="image" src="https://github.com/user-attachments/assets/573cab0c-dd85-4a53-a7a8-871e23db18eb" />
+
+B. Multiple Keyframe (per shot)
+
+<img width="674" height="344" alt="image" src="https://github.com/user-attachments/assets/4ca4b5e4-5131-4f89-915a-7f4442d65370" />
+
+
+## Dynamic Summarization Evaluation 
+
+<img width="694" height="601" alt="image" src="https://github.com/user-attachments/assets/5a4d7b36-4b99-4e80-afb0-9554304b0b9b" />
+
+30% skim was much better than 15%
+       
 
 ## Conclusion
 
-The researchers found that this "computational attention" approach is an effective way to summarize videos, offering a promising alternative to trying to fully understand the video's content semantically.
+The paper finds that this "computational attention" approach is an effective way to summarize videos, compared to understanding the full video's content. A generic and entendable video attention model is created and can be used for other applications. I also talks about further study is needed in fusion scheme.  
