@@ -151,8 +151,6 @@ M_speach and M_music denote speach attention and music attention. N denotes numb
 6. If segment < minimum length (L_min = 30); it creates annoying effects
 7. Total skim length is contolled by skim ratio, One Skil per key frame
    
-<img width="658" height="325" alt="image" src="https://github.com/user-attachments/assets/686669cb-396f-497e-a6a1-47d8a7e93214" />
-
 
 ## Evaluations 
 
@@ -162,6 +160,8 @@ Three things were tested:
 3. Dynamic Summary (Skim Video)
 
 Particapants : 20 volunteers (9 male, 11 female)
+
+<img width="658" height="325" alt="image" src="https://github.com/user-attachments/assets/686669cb-396f-497e-a6a1-47d8a7e93214" />
 
 ## Static Summarization Evaluation 
 
