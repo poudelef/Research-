@@ -48,3 +48,7 @@ There are four primary types of video summarization:
 1. Scene Change Detection: This stage segments the input video into shots based on "event detection" or sharp changes. This is done by analyzing modalities like motion, shape, color, and texture.
 2. Salient Feature Detection and Key-frame Selection (Section 2.2): Once the video is segmented into shots, this stage focuses on extracting more complex features than in the previous stage. Features are categorized into low-level (e.g., edge, intensity), mid-level (e.g., saliency, motion), and high-level (e.g., deep learning features, object detection). These features are used to select the best representative frames, known as key-frames, by evaluating intra-view (within a video) and inter-view (across different videos) correlations.
 3. Summary Generation (Section 2.3): This is the final step where the selected key-frames are used to create the desired summary. The methods used for this can be classified into several categories, including shot-based, clustering-based, sparse dictionary, feature-based, and trajectory-based. These methodologies are often dependent on the application domain, such as surveillance, sports, or news.
+
+<img width="500" height="1000" alt="image" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr3_lrg.jpg"/>
+
+   
