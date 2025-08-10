@@ -1,7 +1,7 @@
 ## A Review on Video Summarization  
 by Preeti Meena, Himanshu Kumar, Sandeep Kumar Yadav
 
-<img width="500" height="600" alt="image" src="https://github.com/user-attachments/assets/1df4677d-e153-4a49-82ea-12c28bce2a84" />
+<img width="700" height="800" alt="image" src="https://github.com/user-attachments/assets/1df4677d-e153-4a49-82ea-12c28bce2a84" />
 
 ### Introduction
 
@@ -29,4 +29,22 @@ This paper talks about using different types of information beyond just video fr
 3. To provide details of benchmark datasets.
 4. To identify the limitations and gaps in current research.
 
+
+### Video Summarization 
+
+There are four primary types of video summarization:
+
+1. Static Summary: A collection of key-frames arranges in chronological order, which are computationally efficient but lack audio clues and continuity.
+2. Dynamic Summary: Obtained by joining key-shots, this type of summary can include both visual and corresponding audio content, making it more informative due to it's ability to utlize motion and audio.
+3. Image summary: A Single static image created by combining various images from the video.
+4. Text summary: A textual description of a video in a paragraph format, generated using NLP method. It requires less computational cost but lacks audio and visuals information.
+   
+<img width="700" height="800" alt="image" src="https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr1_lrg.jpg" />
+
+#### Four main stages involved in video summarization 
+
 <img width="500" height="1000" alt="image" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr2_lrg.jpg"/>
+
+1. Scene Change Detection: This stage segments the input video into shots based on "event detection" or sharp changes. This is done by analyzing modalities like motion, shape, color, and texture.
+2. Salient Feature Detection and Key-frame Selection (Section 2.2): Once the video is segmented into shots, this stage focuses on extracting more complex features than in the previous stage. Features are categorized into low-level (e.g., edge, intensity), mid-level (e.g., saliency, motion), and high-level (e.g., deep learning features, object detection). These features are used to select the best representative frames, known as key-frames, by evaluating intra-view (within a video) and inter-view (across different videos) correlations.
+3. Summary Generation (Section 2.3): This is the final step where the selected key-frames are used to create the desired summary. The methods used for this can be classified into several categories, including shot-based, clustering-based, sparse dictionary, feature-based, and trajectory-based. These methodologies are often dependent on the application domain, such as surveillance, sports, or news.
