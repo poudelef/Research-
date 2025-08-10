@@ -29,4 +29,4 @@ This paper talks about using different types of information beyond just video fr
 3. To provide details of benchmark datasets.
 4. To identify the limitations and gaps in current research.
 
-<img width="200" height="800" alt="image" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr2_lrg.jpg"/>
+<img width="500" height="1000" alt="image" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr2_lrg.jpg"/>
