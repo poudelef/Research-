@@ -51,4 +51,23 @@ There are four primary types of video summarization:
 
 <img width="500" height="1000" alt="image" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr3_lrg.jpg"/>
 
-   
+
+### Classes of Video Summarization
+
+<img width= "600" height = "600" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr4_lrg.jpg"/>
+
+#### Summarization based on number of views 
+
+* Single-View Video Summarization(SVS): It is popular for creating summaries of videos captured from a single perspective. It rely on single view of a scene and it makes them less effective for scenes recorded by multiple cameras, such as those used in surveillance.
+* Multi-View Video Summarization (MVS): MVS techniques address the limitations of SVS by summarizing videos captured from multiple cameras and angles. These methods are becoming more popular in applications where a scene is recorded by multiple cameras, providing a more comprehensive summary.
+
+####  Data Dimension Based Summarization
+
+Classifies summarization method based on the dimensions of the data used.
+
+* 2D Summarization: This refers to summarization methods for standard 2D data like RGB images.
+  
+* 3D and Beyond Summarization: These methods are designed for data with three or more dimensions, such as meshes, skeleton points, or images with depth information (RGB+D).
+      1. Spatial: This approach summarizes information across the spatial dimension, often using techniques like creating a panoramic image. For instance, a method for 3D video summarization might use rate-distortion optimization. Other techniques include using a graph-based approach to select key-frames based on the shortest path in a self-similarity map. Saliency-based algorithms are also adopted to preserve maximum information from the input.
+      2. Temporal: Temporal summarization focuses on summarizing information along the temporal dimension. One method involves generating a single image summary with multiple foreground objects using depth information. Another approach uses CNNs to analyze players' movements in sports videos and classify segments as interesting or uninteresting.
+      3. Spatio-temporal: This combines both spatial and temporal dimensions to summarize information, often by analyzing the motion trajectories of objects. For example, a method might estimate key-frames of a dance performance by exploiting the dancer's motion trajectories.
