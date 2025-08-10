@@ -5,7 +5,7 @@ by Preeti Meena, Himanshu Kumar, Sandeep Kumar Yadav
 
 ### Introduction
 
-2.5 quintillion bytes of data is created every day" and "720,000 hours of video are uploaded daily on YouTube.
+**Problem:** 2.5 quintillion bytes of data is created every day" and "720,000 hours of video are uploaded daily on YouTube.
 
 **Video Summarization** - automatic process of summarizing the video while keeping the key element. Summary of the video can take two forms:
 1. **Static video summary (Story Based)**: This is a collection of still images, or key frames, that represent the most important moments of the video
@@ -28,3 +28,5 @@ This paper talks about using different types of information beyond just video fr
 2. To discuss the advantages of using different multimedia attributes (text, audio, depth).
 3. To provide details of benchmark datasets.
 4. To identify the limitations and gaps in current research.
+
+<img width="200" height="080" alt="image" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr2_lrg.jpg"/>
