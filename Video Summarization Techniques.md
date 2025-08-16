@@ -55,7 +55,7 @@ There are four primary types of video summarization:
 
 - **Shot-based methods** → Divide the video into shots, then extract key-frames from each segment.  
 - **Clustering-based methods** → Group similar shots (K-means, spectral, DBSCAN).  
-  - ⚠ Limitations: K-means often selects repeated segments in static scenes; spectral clustering may over-segment fast-changing scenes.  
+  - Limitations: K-means often selects repeated segments in static scenes; spectral clustering may over-segment fast-changing scenes.  
 - **Sparse dictionary learning** → Learns compact representations of data, useful for monitoring changes, but very time-consuming.  
 - **Feature-based methods** → Use motion, objects, colors, or attention cues. Example: summarizing a sports video based on detected goals.  
 - **Trajectory-based methods** → Track object paths across frames (e.g., players in sports or moving people in surveillance).  
