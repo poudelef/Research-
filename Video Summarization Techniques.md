@@ -85,6 +85,7 @@ Classifies summarization method based on the dimensions of the data used.
    1. Spatial: This approach summarizes information across the spatial dimension, often using techniques like creating a panoramic image. For instance, a method for 3D video summarization might use rate-distortion optimization. Other techniques include using a graph-based approach to select key-frames based on the shortest path in a self-similarity map. Saliency-based algorithms are also adopted to preserve maximum information from the input.
    2. Temporal: Temporal summarization focuses on summarizing information along the temporal dimension. One method involves generating a single image summary with multiple foreground objects using depth information. Another approach uses CNNs to analyze players' movements in sports videos and classify segments as interesting or uninteresting.
    3. Spatio-temporal: This combines both spatial and temporal dimensions to summarize information, often by analyzing the motion trajectories of objects. For example, a method might estimate key-frames of a dance performance by exploiting the dancer's motion trajectories.
+      
       **3D video summarization is still underexplored compared to 2D.** -> *Some Challenge in 3D Summarization* 
       * Different viewpoints hide objects in some frames.
       * Extracting 3D objects requires combining both, not just RGB.
