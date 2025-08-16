@@ -11,7 +11,7 @@ by Preeti Meena, Himanshu Kumar, Sandeep Kumar Yadav
 1. **Static video summary (Story Based)**: This is a collection of still images, or key frames, that represent the most important moments of the video
 2. **Dynamic video summary (video-skim)**: This is a shorter video composed of sequence of key shots from the original
 
-#### Current Limmitation in teh field
+#### Current Limitation in the field
 1. Most method work well only on one area (Domain Specific).
 
 This paper talks about using different types of information beyond just video frames such as audio, video, and depth information. Summarization of video using multi-view and multi-modal data, different summary types, and different methodologies. 
