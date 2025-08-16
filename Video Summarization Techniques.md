@@ -66,6 +66,8 @@ There are four primary types of video summarization:
 
 ### Classes of Video Summarization
 
+classes break video down into different types of summarization depending on context.
+
 <img width= "600" height = "600" src = "https://ars.els-cdn.com/content/image/1-s2.0-S0952197622006571-gr4_lrg.jpg"/>
 
 #### Summarization based on number of views 
