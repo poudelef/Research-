@@ -1,0 +1,27 @@
+Papers were based on video summarization 
+
+I would love to explore project that works as bridge in Video Summarization and Generative Video
+
+1. Exploring re-summarization via generation, where summaries are generated instead of extracted
+2. summary representations—like keyframe feature vectors or other summary‐level matrices—as inputs to generative video models.
+
+pipeline—summarization → generative video—is still an open research idea.
+
+No research has yet bridged the two → using summaries as the starting point for video generation.
+
+Proposed Idea
+
+Input a long video → summarize into key vectors/matrices (semantic + temporal features).
+
+Use these summary vectors as conditioning input to a generative video model (e.g., diffusion, transformer-based, GAN).
+
+Output a new video that:
+
+Preserves semantic essence of the summary
+
+Expands it into a continuous, realistic sequence
+
+Novelty → A first step toward “summary-driven video generation.”
+
+Pipeline:
+Input Video → Summarization (key vectors/matrices) → Generative Model (Diffusion/GAN/Transformer) → Generated Video
